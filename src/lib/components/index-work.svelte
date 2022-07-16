@@ -1,6 +1,6 @@
-<div class="py-24 flex gap-x-16">
-	<div class="">
-		<p class="text-5xl font-semibold text-lime-500 leading-normal">Where I've<br />worked</p>
+<div class="py-32 flex gap-x-16">
+	<div class="w-1/4">
+		<p class="text-5xl font-semibold text-lime-500 leading-tight">Where I've<br />worked</p>
 	</div>
 	<div class="h-px w-5/12 bg-neutral-900 mt-10" />
 	<div class="mt-6">

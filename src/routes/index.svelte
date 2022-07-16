@@ -2,6 +2,7 @@
 	import ProjectCard from '$lib/components/project-card.svelte';
 	import IndexHero from '$lib/components/index-hero.svelte';
 	import IndexWork from '$lib/components/index-work.svelte';
+	import IndexSkill from '$lib/components/index-skill.svelte';
 	import { client } from '$lib/graphql-client';
 	import { postsQuery, projectsQuery } from '$lib/graphql-queries';
 
@@ -32,3 +33,4 @@
 
 <IndexHero />
 <IndexWork />
+<IndexSkill />
