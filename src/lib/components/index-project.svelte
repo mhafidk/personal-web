@@ -4,9 +4,9 @@
 	</div>
 	<div class="h-px w-full bg-neutral-900 mt-10" />
 	<div class="mt-10 flex flex-col gap-y-14">
-		<div class="flex gap-x-16">
-			<div class="w-1/2">
-				<img src="/personal-web.webp" alt="" class="drop-shadow-lg" />
+		<div class="flex gap-x-4 h-[32rem]">
+			<div class="w-1/2 h-full">
+				<img src="/personal-web.webp" alt="" class="drop-shadow-lg object-contain h-full mx-auto" />
 			</div>
 			<div class="w-1/2 flex items-center">
 				<div class="">
@@ -47,9 +47,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="flex gap-x-16">
-			<div class="w-1/2">
-				<img src="/personal-web.webp" alt="" class="drop-shadow-lg" />
+		<div class="flex gap-x-4 h-[32rem]">
+			<div class="w-1/2 h-full">
+				<img src="/personal-web.webp" alt="" class="drop-shadow-lg object-contain h-full mx-auto" />
 			</div>
 			<div class="w-1/2 flex items-center">
 				<div class="">
