@@ -91,4 +91,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="mt-24 text-lg text-center">
+		<a href="/projects" class="bg-lime-500 text-neutral-50 px-6 py-2 rounded-md hover:bg-lime-600"
+			>See more projects</a
+		>
+	</div>
 </div>
