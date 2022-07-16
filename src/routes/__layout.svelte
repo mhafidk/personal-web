@@ -1,9 +1,9 @@
 <script>
 	import '../app.css';
+	import Navbar from '$lib/components/navbar.svelte';
 </script>
 
-<main class="bg-neutral-50">
-	<div class="max-w-screen-2xl mx-auto p-4 ">
-		<slot />
-	</div>
+<main class="max-w-screen-2xl mx-auto p-4">
+	<Navbar />
+	<slot />
 </main>

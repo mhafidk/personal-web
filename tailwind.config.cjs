@@ -3,6 +3,9 @@ const config = {
 
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ['Roboto Slab']
+			},
 			typography: {
 				DEFAULT: {
 					css: {
