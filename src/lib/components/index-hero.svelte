@@ -1,4 +1,4 @@
-<div class="flex justify-between items-center my-48 px-36">
+<div class="flex justify-between items-center my-48">
 	<div class="">
 		<div class="">
 			<p class="text-2xl font-semibold">Hello there! I'm</p>
@@ -17,6 +17,6 @@
 		</div>
 	</div>
 	<div class="">
-		<img src="/mhk-1.webp" alt="MHK" class="h-96" />
+		<img src="/mhk-1.webp" alt="MHK" class="h-[28rem]" />
 	</div>
 </div>

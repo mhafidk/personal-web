@@ -1,6 +1,7 @@
 <script context="module">
 	import ProjectCard from '$lib/components/project-card.svelte';
 	import IndexHero from '$lib/components/index-hero.svelte';
+	import IndexWork from '$lib/components/index-work.svelte';
 	import { client } from '$lib/graphql-client';
 	import { postsQuery, projectsQuery } from '$lib/graphql-queries';
 
@@ -23,8 +24,6 @@
 </script>
 
 <script>
-	export let projects;
-	export let posts;
 </script>
 
 <svelte:head>
@@ -32,18 +31,4 @@
 </svelte:head>
 
 <IndexHero />
-
-<h1>Recent projects</h1>
-
-<div class="">
-	{#each projects as { name, slug, description, image }}
-		<ProjectCard {name} {description} url={image[0].url} {slug} />
-	{/each}
-</div>
-
-<h1>Recent posts</h1>
-<div class="">
-	{#each posts as { title, slug, description }}
-		<p>{title}, {slug}, {description}</p>
-	{/each}
-</div>
+<IndexWork />
