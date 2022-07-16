@@ -12,9 +12,9 @@
 				<div class="">
 					<p class="text-3xl font-semibold">Personal Site</p>
 					<div class="flex gap-x-4 mt-4">
-						<p class="text-lime-600 font-semibold">Svelte</p>
-						<p class="text-lime-600 font-semibold">Tailwind CSS</p>
-						<p class="text-lime-600 font-semibold">Graph CMS</p>
+						<p class="text-blue-500 font-semibold">Svelte</p>
+						<p class="text-blue-500 font-semibold">Tailwind CSS</p>
+						<p class="text-blue-500 font-semibold">Graph CMS</p>
 					</div>
 					<p class="text-lg mt-6">
 						My very own website and blog! NuxtJS site built with Tailwind CSS and Nuxt Content.
@@ -55,9 +55,9 @@
 				<div class="">
 					<p class="text-3xl font-semibold">Personal Site</p>
 					<div class="flex gap-x-4 mt-4">
-						<p class="text-lime-600 font-semibold">Svelte</p>
-						<p class="text-lime-600 font-semibold">Tailwind CSS</p>
-						<p class="text-lime-600 font-semibold">Graph CMS</p>
+						<p class="text-blue-500 font-semibold">Svelte</p>
+						<p class="text-blue-500 font-semibold">Tailwind CSS</p>
+						<p class="text-blue-500 font-semibold">Graph CMS</p>
 					</div>
 					<p class="text-lg mt-6">
 						My very own website and blog! NuxtJS site built with Tailwind CSS and Nuxt Content.

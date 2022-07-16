@@ -4,6 +4,8 @@
 	import IndexWork from '$lib/components/index-work.svelte';
 	import IndexSkill from '$lib/components/index-skill.svelte';
 	import IndexProject from '$lib/components/index-project.svelte';
+	import IndexBlog from '$lib/components/index-blog.svelte';
+
 	import { client } from '$lib/graphql-client';
 	import { postsQuery, projectsQuery } from '$lib/graphql-queries';
 
@@ -36,3 +38,4 @@
 <IndexWork />
 <IndexSkill />
 <IndexProject />
+<IndexBlog />
