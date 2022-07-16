@@ -14,15 +14,35 @@ const PROJECT_FRAGMENT = gql`
 	}
 `;
 
+const POST_FRAGMENT = gql`
+	fragment PostDetails on Post {
+		slug
+		title
+		updatedAt
+		createdAt
+		tags
+		description
+		content
+		coverImage {
+			url
+		}
+	}
+`;
+
 export const postsQuery = gql`
+	${POST_FRAGMENT}
 	query GetPosts {
 		posts {
-			slug
-			title
-			updatedAt
-			createdAt
-			tags
-			description
+			...PostDetails
+		}
+	}
+`;
+
+export const postQuery = gql`
+	${POST_FRAGMENT}
+	query GetPost($slug: String!) {
+		post(where: { slug: $slug }) {
+			...PostDetails
 		}
 	}
 `;
