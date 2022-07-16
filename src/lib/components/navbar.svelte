@@ -6,6 +6,6 @@
 		<a href="/about" class="hover:text-lime-500">About</a>
 		<a href="/posts" class="hover:text-lime-500">Blog</a>
 		<a href="/projects" class="hover:text-lime-500">Projects</a>
-		<a href="/contact" class="hover:text-lime-500">Contact me!</a>
+		<a href="/#contact" class="hover:text-lime-500">Contact me!</a>
 	</div>
 </nav>
