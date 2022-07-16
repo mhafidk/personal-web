@@ -1,5 +1,6 @@
 <script context="module">
 	import ProjectCard from '$lib/components/project-card.svelte';
+	import IndexHero from '$lib/components/index-hero.svelte';
 	import { client } from '$lib/graphql-client';
 	import { postsQuery, projectsQuery } from '$lib/graphql-queries';
 
@@ -27,8 +28,10 @@
 </script>
 
 <svelte:head>
-	<title>Muhammad Hafid K</title>
+	<title>Muhammad Hafid K — That's me!</title>
 </svelte:head>
+
+<IndexHero />
 
 <h1>Recent projects</h1>
 
