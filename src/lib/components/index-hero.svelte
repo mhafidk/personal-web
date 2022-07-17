@@ -17,6 +17,6 @@
 		</div>
 	</div>
 	<div class="h-[28rem] order-first md:order-last mb-4 md:mb-0">
-		<img src="/mhk-1.webp" alt="MHK" class="h-full w-full object-contain" />
+		<img src="/mhk-1.webp" alt="MHK" class="h-full w-full object-contain p-2 md:p-0" />
 	</div>
 </div>

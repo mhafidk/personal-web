@@ -6,9 +6,9 @@ const config = {
 			fontFamily: {
 				sans: ['Roboto Slab']
 			},
-      colors: {
-        'white': '#FFFFFF'
-      },
+			colors: {
+				white: '#FFFFFF'
+			},
 			typography: {
 				DEFAULT: {
 					css: {
@@ -19,7 +19,7 @@ const config = {
 		}
 	},
 
-	plugins: [require('@tailwindcss/typography')]
+	plugins: [require('@tailwindcss/typography'), require('@tailwindcss/line-clamp')]
 };
 
 module.exports = config;

@@ -1,17 +1,17 @@
 <div class="mt-32 py-36 bg-lime-500 full-width" id="contact">
 	<div class="max-w-screen-xl px-8 mx-auto">
-		<div class="flex gap-x-16">
-			<div class="w-2/6">
+		<div class="flex flex-col md:flex-row gap-x-16">
+			<div class="w-full md:w-2/6">
 				<p class="text-5xl font-semibold leading-tight">Where you<br />can reach me</p>
-				<p class="mt-8 text-lg">
+				<p class="mt-4 md:mt-8 text-lg">
 					Have something to say? Ask a question or just say hi, anything! Feel free to contact me,
 					my inbox is always open :)
 				</p>
 			</div>
-			<div class="h-px w-4/12 bg-neutral-900 mt-10" />
+			<div class="h-px w-full md:w-4/12 bg-neutral-900 mt-6 md:mt-10" />
 			<div class="mt-6">
 				<div class="flex flex-col gap-y-10">
-					<div class="">
+					<div class="border-l-4 md:border-l-0 border-neutral-900 pl-6 md:pl-0">
 						<a
 							href="https://www.qontak.com"
 							target="_blank"
@@ -20,7 +20,7 @@
 
 						<p class="text-lg text-neutral-50 font-light">mhafidk@gmail.com</p>
 					</div>
-					<div class="">
+					<div class="border-l-4 md:border-l-0 border-neutral-900 pl-6 md:pl-0">
 						<a
 							href="https://www.qontak.com"
 							target="_blank"
@@ -29,7 +29,7 @@
 
 						<p class="text-lg text-neutral-50 font-light">muhammadhafidk</p>
 					</div>
-					<div class="">
+					<div class="border-l-4 md:border-l-0 border-neutral-900 pl-6 md:pl-0">
 						<a
 							href="https://www.qontak.com"
 							target="_blank"
@@ -38,7 +38,7 @@
 
 						<p class="text-lg text-neutral-50 font-light">mhafidk</p>
 					</div>
-					<div class="">
+					<div class="border-l-4 md:border-l-0 border-neutral-900 pl-6 md:pl-0">
 						<a
 							href="https://www.qontak.com"
 							target="_blank"

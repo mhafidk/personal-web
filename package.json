@@ -13,6 +13,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"@tailwindcss/line-clamp": "^0.4.0",
 		"@tailwindcss/typography": "^0.5.4",
 		"autoprefixer": "^10.4.7",
 		"graphql": "^16.5.0",
