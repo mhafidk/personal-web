@@ -1,5 +1,4 @@
 <script context="module">
-	import ProjectCard from '$lib/components/project-card.svelte';
 	import IndexHero from '$lib/components/index-hero.svelte';
 	import IndexWork from '$lib/components/index-work.svelte';
 	import IndexSkill from '$lib/components/index-skill.svelte';
@@ -29,6 +28,8 @@
 </script>
 
 <script>
+	export let projects;
+	export let posts;
 </script>
 
 <svelte:head>
@@ -38,6 +39,6 @@
 <IndexHero />
 <IndexWork />
 <IndexSkill />
-<IndexProject />
+<IndexProject {projects} />
 <IndexBlog />
 <Contact />
