@@ -27,7 +27,7 @@
 
 {#if openNav}
 	<div
-		class="py-4 text-center font-medium absolute top-10 bg-white w-full"
+		class="py-4 text-center font-medium absolute bg-white w-full"
 		transition:fly={{ y: -10, duration: 500 }}
 	>
 		<ul class="flex flex-col gap-y-6">
