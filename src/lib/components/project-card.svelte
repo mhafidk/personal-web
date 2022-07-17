@@ -17,10 +17,12 @@
 	</div>
 	<div class="w-full md:w-1/2 mt-8 md:mt-0 flex items-center">
 		<div class="">
-			<a
-				href={`/projects/${slug}`}
-				class="text-3xl font-semibold text-center md:text-left hover:text-lime-500">{name}</a
-			>
+			<div class="text-center md:text-left">
+				<a
+					href={`/projects/${slug}`}
+					class="text-3xl font-semibold text-center md:text-left hover:text-lime-500">{name}</a
+				>
+			</div>
 			<div class="flex gap-x-4 mt-4 justify-center md:justify-start">
 				{#each tags as tag}
 					<p class="text-blue-500 font-semibold text-center">{tag}</p>

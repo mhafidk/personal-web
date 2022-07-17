@@ -8,7 +8,7 @@
 	}
 </script>
 
-<nav class="flex justify-between pb-4 md:pt-4 items-center bg-white max-w-screen-xl mx-auto p-4">
+<nav class="flex justify-between pb-4 pt-8 items-center bg-white max-w-screen-xl mx-auto px-4">
 	<a href="/" on:click={() => (openNav = false)}>
 		<img src="/logo.webp" alt="MHK Logo" class="h-5" />
 	</a>
