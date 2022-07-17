@@ -40,5 +40,5 @@
 <IndexWork />
 <IndexSkill />
 <IndexProject {projects} />
-<IndexBlog />
+<IndexBlog {posts} />
 <Contact />

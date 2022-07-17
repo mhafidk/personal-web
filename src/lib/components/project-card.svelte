@@ -5,7 +5,7 @@
 	export let name = '';
 	export let slug = '';
 	export let description = '';
-	export let tags = '';
+	export let tags = [];
 	export let demo = '';
 	export let sourceCode = [];
 	export let image = [];
@@ -17,7 +17,10 @@
 	</div>
 	<div class="w-full md:w-1/2 mt-8 md:mt-0 flex items-center">
 		<div class="">
-			<p class="text-3xl font-semibold text-center md:text-left">{name}</p>
+			<a
+				href={`/projects/${slug}`}
+				class="text-3xl font-semibold text-center md:text-left hover:text-lime-500">{name}</a
+			>
 			<div class="flex gap-x-4 mt-4 justify-center md:justify-start">
 				{#each tags as tag}
 					<p class="text-blue-500 font-semibold text-center">{tag}</p>
