@@ -6,6 +6,9 @@ const config = {
 			fontFamily: {
 				sans: ['Roboto Slab']
 			},
+      colors: {
+        'white': '#FFFFFF'
+      },
 			typography: {
 				DEFAULT: {
 					css: {
