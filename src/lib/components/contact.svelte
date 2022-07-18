@@ -13,7 +13,7 @@
 				<div class="flex flex-col gap-y-10">
 					<div class="border-l-4 md:border-l-0 border-neutral-900 pl-6 md:pl-0">
 						<a
-							href="https://www.qontak.com"
+							href="mailto:mhafidk@gmail.com"
 							target="_blank"
 							class="text-3xl font-semibold hover:text-neutral-50">Mail</a
 						>
@@ -22,7 +22,7 @@
 					</div>
 					<div class="border-l-4 md:border-l-0 border-neutral-900 pl-6 md:pl-0">
 						<a
-							href="https://www.qontak.com"
+							href="https://twitter.com/muhammadhafidk"
 							target="_blank"
 							class="text-3xl font-semibold hover:text-neutral-50">Twitter</a
 						>
@@ -31,7 +31,7 @@
 					</div>
 					<div class="border-l-4 md:border-l-0 border-neutral-900 pl-6 md:pl-0">
 						<a
-							href="https://www.qontak.com"
+							href="https://github.com/mhafidk"
 							target="_blank"
 							class="text-3xl font-semibold hover:text-neutral-50">Github</a
 						>
@@ -40,7 +40,7 @@
 					</div>
 					<div class="border-l-4 md:border-l-0 border-neutral-900 pl-6 md:pl-0">
 						<a
-							href="https://www.qontak.com"
+							href="https://www.linkedin.com/in/mhafidk/"
 							target="_blank"
 							class="text-3xl font-semibold hover:text-neutral-50">LinkedIn</a
 						>
