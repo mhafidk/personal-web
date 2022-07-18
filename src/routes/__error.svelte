@@ -12,6 +12,10 @@
 	export let status;
 </script>
 
+<svelte:head>
+	<title>MHK — There's something wrong :(</title>
+</svelte:head>
+
 <div class="h-screen flex flex-col justify-center items-center text-center p-8">
 	<p class="text-lime-500 text-6xl md:text-9xl font-semibold mb-10 md:mb-16">{status}</p>
 	{#if status == 404}

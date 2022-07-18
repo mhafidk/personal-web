@@ -2,6 +2,10 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<title>MHK — Work in Progress!</title>
+</svelte:head>
+
 <main class="text-neutral-900 h-screen flex justify-center items-center">
 	<div class="p-8 md:p-32 text-center">
 		<p class="text-3xl md:text-5xl font-semibold">I'm sorry,</p>
