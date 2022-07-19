@@ -1,4 +1,4 @@
-<div class="mt-32 py-36 bg-lime-500 full-width" id="contact">
+<div class="mt-32 py-36 bg-lime-500" id="contact">
 	<div class="max-w-screen-xl px-8 mx-auto">
 		<div class="flex flex-col md:flex-row gap-x-16">
 			<div class="w-full md:w-2/6">
@@ -55,14 +55,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	.full-width {
-		width: 100vw;
-		position: relative;
-		left: 49.2%;
-		right: 50%;
-		margin-left: -50vw;
-		margin-right: -50vw;
-	}
-</style>
