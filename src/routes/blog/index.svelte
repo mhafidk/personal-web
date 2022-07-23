@@ -17,13 +17,14 @@
 
 <script>
 	export let posts;
+	export let screenHeight = posts.length == 1 ? 'h-screen' : '';
 </script>
 
 <svelte:head>
 	<title>Blog</title>
 </svelte:head>
 
-<div class="my-24 w-full">
+<div class="my-24 w-full {screenHeight}">
 	<h1 class="text-4xl font-semibold text-lime-500">Blog.</h1>
 	<div class="flex my-16 gap-x-8">
 		<div class="w-full xl:w-3/4">
