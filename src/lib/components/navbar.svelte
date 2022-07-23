@@ -19,7 +19,7 @@
 	</div>
 	<div class="hidden md:flex gap-x-16 font-medium">
 		<a href="/about" class="hover:text-lime-500">About</a>
-		<a href="/posts" class="hover:text-lime-500">Blog</a>
+		<a href="/blog" class="hover:text-lime-500">Blog</a>
 		<a href="/projects" class="hover:text-lime-500">Projects</a>
 		<a href="/#contact" class="hover:text-lime-500">Contact me!</a>
 	</div>
@@ -35,7 +35,7 @@
 				<a href="/about" class="hover:text-lime-500" on:click={toggleMenu}>About</a>
 			</li>
 			<li>
-				<a href="/posts" class="hover:text-lime-500" on:click={toggleMenu}>Blog</a>
+				<a href="/blog" class="hover:text-lime-500" on:click={toggleMenu}>Blog</a>
 			</li>
 			<li>
 				<a href="/projects" class="hover:text-lime-500" on:click={toggleMenu}>Projects</a>
