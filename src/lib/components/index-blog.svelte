@@ -10,9 +10,9 @@
 	</div>
 	<div class="h-px w-full bg-neutral-900 mt-10" />
 	<div class="mt-10">
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-			{#each posts as { title, slug, tags, description, coverImage }}
-				<BlogCard {title} {slug} {tags} {description} {coverImage} />
+		<div class="grid grid-cols-1 gap-8">
+			{#each posts as { title, slug, tags, description, coverImage, createdAt }}
+				<BlogCard {title} {slug} {tags} {description} {coverImage} {createdAt} />
 			{/each}
 		</div>
 	</div>
